@@ -1,0 +1,18 @@
+body {
+  font-family: Verdana, Helvetica, sans-serif;
+  background-color: #DDDDDD;
+}
+
+
+
+cogent-transit-140304
+
+appcfg.py -A cogent-transit-140304 -V v1 update ./
+
+
+git remote add appengine-php-guestbook  \
+  https://source.developers.google.com/p/cogent-transit-140304/r/guestbook
+
+/usr/local/git/bin
+
+export PATH="/usr/local/git/bin::$PATH"
